@@ -18,9 +18,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Pedestal
+  - Clipboard_Layer
+  - Ruler_Layer
   - Raycast
   - Test
   - 
@@ -53,3 +53,4 @@ TagManager:
     locked: 0
   m_RenderingLayers:
   - Default
+  m_MigratedRenderPipelines: []
