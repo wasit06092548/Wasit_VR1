@@ -94,7 +94,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: ea1e548d3b7335d439aa1db0a4b2e9c5, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -723,7 +723,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -865,7 +865,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -1376,7 +1376,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &203844587
 MonoBehaviour:
@@ -1457,7 +1457,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -3505,6 +3505,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7836764174154089814, guid: e5b6e40db88c14344b1b380c0e966e20, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3653,6 +3657,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2634280302739412277, guid: d9470993b9bd0a541a884d6f6704a421, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967968204040337907, guid: d9470993b9bd0a541a884d6f6704a421, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6041712068339329030, guid: d9470993b9bd0a541a884d6f6704a421, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6166717289913089555, guid: d9470993b9bd0a541a884d6f6704a421, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -3770,7 +3790,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -3907,7 +3927,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -4155,6 +4175,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionValue:
       m_Name: Select Value
       m_Type: 0
@@ -4164,6 +4185,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReferencePerformed: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_InputActionReferenceValue: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
@@ -4185,6 +4207,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionValue:
       m_Name: Activate Value
       m_Type: 0
@@ -4194,6 +4217,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReferencePerformed: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_InputActionReferenceValue: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
@@ -4268,6 +4292,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionValue:
       m_Name: UI Press Value
       m_Type: 0
@@ -4277,6 +4302,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReferencePerformed: {fileID: -6395602842196007441, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_InputActionReferenceValue: {fileID: 71106601250685021, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
@@ -4298,6 +4324,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: 2464016903823916871, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
@@ -4391,6 +4418,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
@@ -4629,7 +4657,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -4864,7 +4892,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -5530,6 +5558,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionValue:
       m_Name: Select Value
       m_Type: 0
@@ -5539,6 +5568,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReferencePerformed: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_InputActionReferenceValue: {fileID: -1758520528963094988, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
@@ -5560,6 +5590,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionValue:
       m_Name: Activate Value
       m_Type: 0
@@ -5569,6 +5600,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReferencePerformed: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_InputActionReferenceValue: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
@@ -5643,6 +5675,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionValue:
       m_Name: UI Press Value
       m_Type: 0
@@ -5652,6 +5685,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReferencePerformed: {fileID: 3279264004350380116, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_InputActionReferenceValue: {fileID: -5908353012961274365, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
@@ -5673,6 +5707,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: -6756787485274679044, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
@@ -5766,6 +5801,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
@@ -5974,7 +6010,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -6681,7 +6717,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -6805,6 +6841,10 @@ PrefabInstance:
     - target: {fileID: 3586630497097109387, guid: 4fedbc191226c1146a147611e5fc67ac, type: 3}
       propertyPath: m_Name
       value: Rug_Rect_Gray
+      objectReference: {fileID: 0}
+    - target: {fileID: 3586630497097109387, guid: 4fedbc191226c1146a147611e5fc67ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7558,7 +7598,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -7953,7 +7993,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -8354,6 +8394,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
@@ -8368,6 +8409,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: -8525429354371678379, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
@@ -10122,6 +10164,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: 1010738217276881514, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
@@ -10136,6 +10179,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
@@ -11834,8 +11878,8 @@ VideoPlayer:
   m_DirectAudioVolumes:
   - 1
   m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
+  m_EnabledAudioTracks: 01o
+  m_DirectAudioMutes: 00o
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
@@ -12148,7 +12192,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -12387,7 +12431,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
+  m_ActiveFontFeatures: 6e72656bu
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -12647,6 +12691,7 @@ MonoBehaviour:
         m_Action: Position
         m_Flags: 0
       m_Flags: 0
+      m_Priority: 0
     m_Reference: {fileID: 0}
   m_RotationInput:
     m_UseReference: 0
@@ -12675,6 +12720,7 @@ MonoBehaviour:
         m_Action: Rotation
         m_Flags: 0
       m_Flags: 0
+      m_Priority: 0
     m_Reference: {fileID: 0}
   m_TrackingStateInput:
     m_UseReference: 0
@@ -12695,6 +12741,7 @@ MonoBehaviour:
         m_Action: Tracking State
         m_Flags: 0
       m_Flags: 0
+      m_Priority: 0
     m_Reference: {fileID: 0}
   m_PositionAction:
     m_Name: 
@@ -12705,6 +12752,7 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
+    m_Priority: 0
   m_RotationAction:
     m_Name: 
     m_Type: 0
@@ -12714,6 +12762,7 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
+    m_Priority: 0
 --- !u!23 &1289032757753729698
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13031,6 +13080,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_Reference: {fileID: -2024308242397127297, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_RotationInput:
     m_UseReference: 1
@@ -13043,6 +13093,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_Reference: {fileID: 8248158260566104461, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_TrackingStateInput:
     m_UseReference: 1
@@ -13055,6 +13106,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_Reference: {fileID: 684395432459739428, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_PositionAction:
     m_Name: 
@@ -13065,6 +13117,7 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
+    m_Priority: 0
   m_RotationAction:
     m_Name: 
     m_Type: 0
@@ -13074,6 +13127,7 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
+    m_Priority: 0
 --- !u!114 &2585083446234198463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13097,6 +13151,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: -8785819595477538065, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
   m_AmplitudeMultiplier: 1
@@ -13209,6 +13264,7 @@ MonoBehaviour:
       m_Action: Action
       m_Flags: 0
     m_Flags: 0
+    m_Priority: 0
   OnPress:
     m_PersistentCalls:
       m_Calls:
@@ -13809,6 +13865,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionValue:
       m_Name: Select Value
       m_Type: 0
@@ -13818,6 +13875,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReferencePerformed: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_InputActionReferenceValue: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
@@ -13839,6 +13897,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionValue:
       m_Name: Activate Value
       m_Type: 0
@@ -13848,6 +13907,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReferencePerformed: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_InputActionReferenceValue: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
@@ -13954,6 +14014,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionValue:
       m_Name: UI Press Value
       m_Type: 0
@@ -13963,6 +14024,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReferencePerformed: {fileID: 0}
     m_InputActionReferenceValue: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
@@ -13984,6 +14046,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
@@ -13998,6 +14061,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
@@ -14012,6 +14076,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: -5913262927076077117, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
@@ -14026,6 +14091,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: -440298646266941818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
@@ -14040,6 +14106,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionValue:
       m_Name: Scale Toggle Value
       m_Type: 0
@@ -14049,6 +14116,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReferencePerformed: {fileID: 0}
     m_InputActionReferenceValue: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
@@ -14070,6 +14138,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
@@ -14084,6 +14153,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: 0
@@ -14330,6 +14400,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_Reference: {fileID: -3326005586356538449, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_RotationInput:
     m_UseReference: 1
@@ -14342,6 +14413,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_Reference: {fileID: 5101698808175986029, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_TrackingStateInput:
     m_UseReference: 1
@@ -14354,6 +14426,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_Reference: {fileID: -1277054153949319361, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_PositionAction:
     m_Name: 
@@ -14364,6 +14437,7 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
+    m_Priority: 0
   m_RotationAction:
     m_Name: 
     m_Type: 0
@@ -14373,6 +14447,7 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
+    m_Priority: 0
 --- !u!114 &8299348947959440003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14396,6 +14471,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: -8222252007134549311, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
   m_AmplitudeMultiplier: 1
@@ -14508,6 +14584,7 @@ MonoBehaviour:
       m_Action: Action
       m_Flags: 0
     m_Flags: 0
+    m_Priority: 0
   OnPress:
     m_PersistentCalls:
       m_Calls:
@@ -14642,6 +14719,7 @@ MonoBehaviour:
       m_Action: Action
       m_Flags: 0
     m_Flags: 0
+    m_Priority: 0
   OnPress:
     m_PersistentCalls:
       m_Calls:
@@ -14758,6 +14836,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionValue:
       m_Name: Select Value
       m_Type: 0
@@ -14767,6 +14846,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReferencePerformed: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_InputActionReferenceValue: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
@@ -14788,6 +14868,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionValue:
       m_Name: Activate Value
       m_Type: 0
@@ -14797,6 +14878,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReferencePerformed: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_InputActionReferenceValue: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
@@ -14903,6 +14985,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionValue:
       m_Name: UI Press Value
       m_Type: 0
@@ -14912,6 +14995,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReferencePerformed: {fileID: 0}
     m_InputActionReferenceValue: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
@@ -14933,6 +15017,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
@@ -14947,6 +15032,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
@@ -14961,6 +15047,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: -7363382999065477798, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
@@ -14975,6 +15062,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: -8811388872089202044, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
@@ -14989,6 +15077,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionValue:
       m_Name: Scale Toggle Value
       m_Type: 0
@@ -14998,6 +15087,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReferencePerformed: {fileID: 0}
     m_InputActionReferenceValue: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
@@ -15019,6 +15109,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: {x: 0, y: 0}
@@ -15033,6 +15124,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+      m_Priority: 0
     m_InputActionReference: {fileID: 0}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualValue: 0
